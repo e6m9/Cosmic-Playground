@@ -1,0 +1,29 @@
+:root {
+    --pri: teal;
+    --sec: lightblue;
+    --ter: purple;
+    --font: white;
+}
+
+* {
+    font-family: 'Verdana', 'Geneva', 'Tahoma', sans-serif;
+}
+
+body {
+    background-color: black;
+    margin: 0px;
+}
+
+header {
+    background-color: var(--pri);
+}
+
+.nav {
+    text-align: right;
+    text-decoration: none;
+}
+
+.nav h3 {
+    padding-right: 12px;
+    display: inline-flex; 
+}
